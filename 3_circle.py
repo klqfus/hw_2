@@ -1,8 +1,13 @@
 import turtle
-turtle.shape('turtle')
-n = 36
-a = (n-2) * 180 / n
-turtle.left(90=l)
-for i in range(n):
-    turtle.forward(30)
-    turtle.left(n)
+
+
+def rectangle():
+    turtle.shape('turtle')
+    i = 0
+    while i < 360:
+        turtle.forward(1)
+        turtle.left(1)
+        i = i + 1
+    pass
+if __name__ == '__main__':
+    rectangle()
